@@ -11,7 +11,7 @@ public class BookingDAO {
     private static final String FILE_PATH =  RootPath.rootPath+"/src/main/resources/data/bookingmanagement/booking.txt"; // Updated file path
     private static final String DELIMITER = ","; // Delimiter for separating fields
 
-
+    //booking
     public BookingDAO() {
         ensureFileExists();
     }
