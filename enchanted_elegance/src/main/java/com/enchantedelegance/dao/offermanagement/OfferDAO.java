@@ -14,12 +14,13 @@ public class OfferDAO {
     public OfferDAO() {
         ensureFileExists();
     }
-
+//add function
     // Read all Offers from the text file
     public List<Offer> getAllOffers() {
         List<Offer> offers = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(FILE_PATH))) {
             String line;
+            //txt
             while ((line = reader.readLine()) != null) {
                 String[] offerData = line.split(DELIMITER);
                 if (offerData.length == 5) {
