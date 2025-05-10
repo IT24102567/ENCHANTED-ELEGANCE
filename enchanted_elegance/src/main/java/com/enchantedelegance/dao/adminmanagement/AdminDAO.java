@@ -14,7 +14,7 @@ public class AdminDAO {
     public AdminDAO() {
         ensureFileExists();
     }
-    //a
+
     // Read all Admin from the text file
     public List<Admin> getAllAdmins() {
         List<Admin> admins = new ArrayList<>();
