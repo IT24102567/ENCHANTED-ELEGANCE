@@ -41,7 +41,7 @@ public class UserDAO {
         return users;
     }
 
-    // Get user by ID and go to txt
+    // Get user by ID
     public User getUserById(int id) {
         for (User user : getAllUsers()) {
             if (user.getId() == id) {
