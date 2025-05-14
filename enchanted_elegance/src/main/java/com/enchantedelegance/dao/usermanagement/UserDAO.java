@@ -86,7 +86,7 @@ public class UserDAO {
             return false; // Error
         }
     }
-    // Update an existing user's details in updateUser
+    // Update an existing user's details
     public boolean updateUser(User updatedUser) {
         List<User> users = getAllUsers();
         boolean updated = false;
