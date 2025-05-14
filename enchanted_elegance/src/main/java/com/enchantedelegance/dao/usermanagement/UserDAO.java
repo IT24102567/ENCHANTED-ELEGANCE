@@ -95,7 +95,7 @@ public class UserDAO {
             for (User user : users) {
                 if (user.getId() == updatedUser.getId()) {
                     user = updatedUser;  // Update user info
-                    updated = true; //Update successful
+                    updated = true;
                 }
 
                 // Write updated user data back to the file
