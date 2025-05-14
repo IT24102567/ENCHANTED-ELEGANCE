@@ -48,7 +48,7 @@ public class UserDAO {
                 return user;
             }
         }
-        return null; // Retun null if User not found
+        return null; // User not found
     }
 
     // Get user by Email
