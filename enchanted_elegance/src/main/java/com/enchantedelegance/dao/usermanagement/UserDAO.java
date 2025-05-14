@@ -113,7 +113,7 @@ public class UserDAO {
 
     // Delete user by ID
     public boolean deleteUserById (int id) {
-        List<User> users = getAllUsers();
+        List <User> users = getAllUsers();
         boolean deleted = false;
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH))) {
