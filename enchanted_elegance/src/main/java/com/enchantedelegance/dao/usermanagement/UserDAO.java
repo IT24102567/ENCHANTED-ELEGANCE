@@ -80,7 +80,7 @@ public class UserDAO {
             );
             writer.write(userLine);
             writer.newLine();
-            return true; // Success
+            return true; // user added Successfully
         } catch (IOException e) {
             e.printStackTrace();
             return false; // Error
