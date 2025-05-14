@@ -71,7 +71,7 @@ public class UserDAO {
     // Add a new user to the text file
     public boolean addUser(User user) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH, true))) {
-            String userLine = String.join(DELIMITER,
+            String userLine = String.join(DELIMITER, //coma
                     String.valueOf(user.getId()),
                     user.getName(),
                     user.getMobile(),
