@@ -114,7 +114,7 @@ public class UserDAO {
     // Delete user by ID
     public boolean deleteUserById (int id) {
         List<User> users = getAllUsers();
-        boolean delete = false;
+        boolean deleted = false;
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH))) {
             for (User user : users) {
@@ -124,14 +124,14 @@ public class UserDAO {
                             user.getPassword());
                     writer.newLine();
                 } else {
-                    delete = true; // User found and skipped (deleted)
+                    deleted = true; // User found and skipped (deleted)
                 }
             }
         } catch (IOException e) {
             e.printStackTrace();
             return false;
         }
-        return delete;
+        return deleted;
     }
 
 
