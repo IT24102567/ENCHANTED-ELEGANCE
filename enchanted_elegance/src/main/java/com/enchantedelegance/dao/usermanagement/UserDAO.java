@@ -51,7 +51,7 @@ public class UserDAO {
         return null; // User not found
     }
 
-    // Get user by Email
+    // Get user by Email and if found return user
     public User getUserByEmail(String email) {
         for (User user : getAllUsers()) {
             if (user.getEmail().equalsIgnoreCase(email)) {
