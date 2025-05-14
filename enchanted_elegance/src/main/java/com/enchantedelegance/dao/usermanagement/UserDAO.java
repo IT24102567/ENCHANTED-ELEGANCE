@@ -58,7 +58,7 @@ public class UserDAO {
                 return user;
             }
         }
-        return null; // User not found
+        return null; //returning null User not found
     }
 
     // Authenticate user (Check email and password)
