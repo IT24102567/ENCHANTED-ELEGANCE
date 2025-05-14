@@ -122,7 +122,7 @@ public class UserDAO {
                     writer.write(user.getId() + DELIMITER + user.getName() + DELIMITER +
                             user.getMobile() + DELIMITER + user.getEmail() + DELIMITER +
                             user.getPassword());
-                    writer.newLine ();
+                    writer.newLine();
                 } else {
                     deleted = true; // User found and skipped (deleted)
                 }
