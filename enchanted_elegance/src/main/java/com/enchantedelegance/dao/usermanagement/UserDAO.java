@@ -42,7 +42,7 @@ public class UserDAO {
     }
 
     // Get user by ID
-    public User getUserById (int id) {
+    public User getUserById(int id) {
         for (User user : getAllUsers()) {
             if (user.getId() == id) {
                 return user;
