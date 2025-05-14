@@ -15,7 +15,7 @@ public class UserDAO {
         ensureFileExists();
     }
 
-    // Read all users from the text file and show as a list
+    // Read all users from the text file
     public List<User> getAllUsers() {
         List<User> users = new ArrayList<>();
 
