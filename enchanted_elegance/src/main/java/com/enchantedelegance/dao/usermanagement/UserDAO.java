@@ -136,7 +136,7 @@ public class UserDAO {
 
 
     // Generate a new auto-incremented ID
-    public int getNextId() {
+    public int getNextID() {
         List<User> users = getAllUsers();
         if (users.isEmpty()) {
             return 1;
