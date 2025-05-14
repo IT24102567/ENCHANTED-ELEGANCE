@@ -108,7 +108,7 @@ public class UserDAO {
             e.printStackTrace();
             return false;
         }
-        return updated;
+        return updated; //Finalized
     }
 
     // Delete user by ID
