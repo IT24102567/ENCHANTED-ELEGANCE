@@ -98,7 +98,7 @@ public class UserDAO {
                     updated = true;
                 }
 
-                // Write updated user data back to the file
+                // Write updated user data back to the file txt
                 writer.write(user.getId() + DELIMITER + user.getName() + DELIMITER +
                         user.getMobile() + DELIMITER + user.getEmail() + DELIMITER +
                         user.getPassword());
