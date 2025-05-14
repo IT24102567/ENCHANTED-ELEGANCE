@@ -152,7 +152,7 @@ public class UserDAO {
                 file.createNewFile(); // Create the file if it doesn't exist
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            e.printStackTrace ();
         }
     }
 
