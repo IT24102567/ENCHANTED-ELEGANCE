@@ -14,7 +14,7 @@ public class OfferDAO {
     public OfferDAO() {
         ensureFileExists();
     }
-//ImprovedMethodNamingForClarity
+//FixTypoInVariableName
     // Read all Offers from the text file
     public List<Offer> getAllOffers() {
         List<Offer> offers = new ArrayList<>();
