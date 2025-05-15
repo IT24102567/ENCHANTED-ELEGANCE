@@ -107,12 +107,12 @@ public class BookingDAO {
                 writer.newLine();
             }
         } catch (IOException e) {
-            e.printStackTrace();//
+            e.printStackTrace();
             return false;
         }
         return updated;
     }
-//
+
     // Delete booking by ID
     public boolean deleteBookingById(int id) {
         List<Booking> bookings = getAllBookings();
@@ -135,7 +135,7 @@ public class BookingDAO {
             return false;
         }
         return deleted;
-    }
+    } //
 
 
     // Generate a new auto-incremented ID
