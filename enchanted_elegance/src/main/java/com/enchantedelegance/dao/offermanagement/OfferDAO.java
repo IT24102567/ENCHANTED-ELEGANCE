@@ -85,7 +85,7 @@ public class OfferDAO {
                         offer.getTitle(),
                         offer.getDiscount(),
                         offer.getDescription()
-                ));          //RemoveDebugPrintStatement
+                ));
                 writer.newLine();
             }
         } catch (IOException e) {
@@ -93,7 +93,7 @@ public class OfferDAO {
             return false;
         }
         return updated;
-    }
+    }  //CleanUpUnusedCode
 
     // Delete an Offer by ID
     public boolean deleteOfferById(int id) {
