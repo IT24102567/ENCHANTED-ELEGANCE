@@ -175,7 +175,6 @@ public class ContactDAO {
         }
         return contacts.get(contacts.size() - 1).getId() + 1;
     }
-    //
 
     private void ensureFileExists() {
         File file = new File(FILE_PATH);
@@ -190,3 +189,4 @@ public class ContactDAO {
     }
 
 }
+//
