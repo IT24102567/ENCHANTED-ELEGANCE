@@ -15,7 +15,7 @@ public class BookingDAO {
     public BookingDAO() {
         ensureFileExists();
     }
-//
+    //
     // Read all booking from the text file
     public List<Booking> getAllBookings() {
         List<Booking> bookings = new ArrayList<>();
