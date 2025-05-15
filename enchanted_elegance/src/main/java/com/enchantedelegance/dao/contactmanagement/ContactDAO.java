@@ -103,7 +103,6 @@ public class ContactDAO {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH, true))) {
             String contactLine = String.join(DELIMITER,
                     String.valueOf(contact.getId()),
-                    //
                     contact.getName(),
                     contact.getEmail(),
                     contact.getMobile(),
@@ -136,6 +135,7 @@ public class ContactDAO {
                         contact.getEmail() + DELIMITER + contact.getMobile() + DELIMITER +
                         contact.getSubject() + DELIMITER + contact.getMessage() + DELIMITER + contact.getStatus() );
                 writer.newLine();
+                //
             }
         } catch (IOException e) {
             e.printStackTrace();
