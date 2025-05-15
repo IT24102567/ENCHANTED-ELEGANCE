@@ -80,6 +80,7 @@ public class ContactDAO {
                 processingContact.add(contact);
             }
         }
+        //
 
         return processingContact;
     }
@@ -148,7 +149,6 @@ public class ContactDAO {
     public boolean deleteContactById(int id) {
         List<Contact> contacts = getAllContacts();
         boolean deleted = false;
-        //
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH))) {
             for (Contact contact : contacts) {
