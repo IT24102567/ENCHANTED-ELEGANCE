@@ -112,7 +112,7 @@ public class OfferDAO {
                     writer.newLine();
                 } else {
                     deleted = true;
-                }
+                }                  //CheckIfDeletedOffersAreRemovedFromFile
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -125,7 +125,7 @@ public class OfferDAO {
     public int getNextId() {
         List<Offer> offers = getAllOffers();
         return offers.isEmpty() ? 1 : offers.get(offers.size() - 1).getId() + 1;
-    }      //incorrectIDGeneration
+    }
 
     private void ensureFileExists() {
         File file = new File(FILE_PATH);
