@@ -88,7 +88,6 @@ public class ContactDAO {
     public List<Contact> getAllCompletedContact() {
         List<Contact> completedContact = new ArrayList<>();
         List<Contact> contacts = this.getAllContacts();
-        //
 
         for (Contact contact : contacts) {
             if (contact.getStatus().equalsIgnoreCase("completed")) {
@@ -98,6 +97,7 @@ public class ContactDAO {
 
         return completedContact;
     }
+    //
 
     // Add a new contact message to the text file
     public boolean addContact(Contact contact) {
