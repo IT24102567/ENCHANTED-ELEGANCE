@@ -128,6 +128,7 @@ public class ContactDAO {
                 if (contact.getId() == updatedContact.getId()) {
                     contact = updatedContact;  // Update contact info
                     updated = true;
+                    //
                 }
 
                 // Write updated contact message data back to the file
@@ -135,7 +136,6 @@ public class ContactDAO {
                         contact.getEmail() + DELIMITER + contact.getMobile() + DELIMITER +
                         contact.getSubject() + DELIMITER + contact.getMessage() + DELIMITER + contact.getStatus() );
                 writer.newLine();
-                //
             }
         } catch (IOException e) {
             e.printStackTrace();
