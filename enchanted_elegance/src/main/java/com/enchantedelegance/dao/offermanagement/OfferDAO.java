@@ -14,7 +14,7 @@ public class OfferDAO {
     public OfferDAO() {
         ensureFileExists();
     }
-//UpdateOfferStructureWithImageURL
+//UpdateExistingOfferData
     // Read all Offers from the text file
     public List<Offer> getAllOffers() {
         List<Offer> offers = new ArrayList<>();
