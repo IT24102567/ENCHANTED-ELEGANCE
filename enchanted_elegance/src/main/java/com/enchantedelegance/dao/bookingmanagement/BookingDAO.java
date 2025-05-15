@@ -110,13 +110,13 @@ public class BookingDAO {
             e.printStackTrace();
             return false;
         }
-        return updated;
+        return updated;//
     }
 
     // Delete booking by ID
     public boolean deleteBookingById(int id) {
         List<Booking> bookings = getAllBookings();
-        boolean deleted = false;//
+        boolean deleted = false;
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH))) {
             for (Booking booking : bookings) {
