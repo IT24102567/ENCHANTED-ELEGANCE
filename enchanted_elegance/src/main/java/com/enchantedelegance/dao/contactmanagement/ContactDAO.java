@@ -97,7 +97,6 @@ public class ContactDAO {
 
         return completedContact;
     }
-    //
 
     // Add a new contact message to the text file
     public boolean addContact(Contact contact) {
@@ -188,5 +187,6 @@ public class ContactDAO {
             e.printStackTrace();
         }
     }
+    //
 
 }
