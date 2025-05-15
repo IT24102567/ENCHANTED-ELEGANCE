@@ -174,6 +174,7 @@ public class ContactDAO {
             return 1;
         }
         return contacts.get(contacts.size() - 1).getId() + 1;
+        //
     }
 
     private void ensureFileExists() {
@@ -186,7 +187,6 @@ public class ContactDAO {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        //
     }
 
 }
