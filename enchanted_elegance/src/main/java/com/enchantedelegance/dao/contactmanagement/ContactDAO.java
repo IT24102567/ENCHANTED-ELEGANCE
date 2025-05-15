@@ -52,6 +52,7 @@ public class ContactDAO {
             if (contact.getId() == id) {
                 return contact;
             }
+            //
         }
         return null; // contact not found
     }
@@ -66,7 +67,6 @@ public class ContactDAO {
                 pendingContact.add(contact);
             }
         }
-        //
 
         return pendingContact;
     }
