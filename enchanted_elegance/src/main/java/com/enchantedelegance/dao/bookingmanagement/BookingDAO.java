@@ -135,7 +135,7 @@ public class BookingDAO {
             return false;
         }
         return deleted;
-    } //
+    }
 
 
     // Generate a new auto-incremented ID
@@ -154,7 +154,7 @@ public class BookingDAO {
             if (!file.exists()) {
                 file.createNewFile(); // Create the file if it doesn't exist
             }
-        } catch (IOException e) {
+        } catch (IOException e) { //
             e.printStackTrace();
         }
     }
