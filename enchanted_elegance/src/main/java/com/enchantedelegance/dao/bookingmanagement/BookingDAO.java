@@ -109,8 +109,8 @@ public class BookingDAO {
         } catch (IOException e) {
             e.printStackTrace();
             return false;
-        }
-        return updated;//
+        }//
+        return updated;
     }
 
     // Delete booking by ID
