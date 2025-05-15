@@ -15,11 +15,10 @@ public class BookingDAO {
     public BookingDAO() {
         ensureFileExists();
     }
-    //
     // Read all booking from the text file
     public List<Booking> getAllBookings() {
         List<Booking> bookings = new ArrayList<>();
-
+//
         try (BufferedReader reader = new BufferedReader(new FileReader(FILE_PATH))) {
             String line;
             while ((line = reader.readLine()) != null) {
