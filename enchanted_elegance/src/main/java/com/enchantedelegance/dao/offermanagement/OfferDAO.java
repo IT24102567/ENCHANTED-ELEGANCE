@@ -38,7 +38,7 @@ public class OfferDAO {
             e.printStackTrace();
         }
         return offers;
-    } //FixOfferDisplayIssue
+    }
 
     // Get Offer by ID
     public Offer getOfferById(int id) {
@@ -78,7 +78,7 @@ public class OfferDAO {
                 if (offer.getId() == updatedOffer.getId()) {
                     offer = updatedOffer;
                     updated = true;
-                }
+                }           //CorrectOfferDiscountField
                 writer.write(String.join(DELIMITER,
                         String.valueOf(offer.getId()),
                         offer.getImage(), // This is now the URL
