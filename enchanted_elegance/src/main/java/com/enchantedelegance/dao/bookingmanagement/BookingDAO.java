@@ -80,13 +80,13 @@ public class BookingDAO {
                     booking.getNote()
             );
             writer.write(bookingLine);
-            writer.newLine();
+            writer.newLine(); //
             return true; // Success
         } catch (IOException e) {
             e.printStackTrace();
             return false; // Error
         }
-    }//
+    }
     // Update an existing booking's details
     public boolean updateBooking(Booking updatedBooking) {
         List<Booking> bookings = getAllBookings();
