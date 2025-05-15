@@ -11,3 +11,4 @@
 11,Beta,0701234567,beta@site.com,beta@site.com
 12,Support,0711111111,support@mail.com,support@mail.com
 
+13,Nethmi Manage,0773732814,it24104013@my.sliit.lk,it24104013@my.sliit.lk
