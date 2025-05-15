@@ -14,7 +14,7 @@ public class OfferDAO {
     public OfferDAO() {
         ensureFileExists();
     }
-//AvoidDuplicateOfferIDs
+
     // Read all Offers from the text file
     public List<Offer> getAllOffers() {
         List<Offer> offers = new ArrayList<>();
@@ -85,7 +85,7 @@ public class OfferDAO {
                         offer.getTitle(),
                         offer.getDiscount(),
                         offer.getDescription()
-                ));
+                ));          //RemoveDebugPrintStatement
                 writer.newLine();
             }
         } catch (IOException e) {
