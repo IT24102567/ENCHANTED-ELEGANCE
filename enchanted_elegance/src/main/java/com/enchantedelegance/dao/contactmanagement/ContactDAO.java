@@ -184,9 +184,9 @@ public class ContactDAO {
                 file.createNewFile(); // Create the file if it doesn't exist
             }
         } catch (IOException e) {
-            //
             e.printStackTrace();
         }
+        //
     }
 
 }
