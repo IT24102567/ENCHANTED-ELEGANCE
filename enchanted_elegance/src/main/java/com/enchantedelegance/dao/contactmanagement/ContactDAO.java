@@ -18,6 +18,7 @@ public class ContactDAO {
     // Read all contact message from the text file
     public List<Contact> getAllContacts() {
         List<Contact> contacts = new ArrayList<>();
+        //
 
         try (BufferedReader reader = new BufferedReader(new FileReader(FILE_PATH))) {
             String line;
@@ -52,7 +53,6 @@ public class ContactDAO {
             if (contact.getId() == id) {
                 return contact;
             }
-            //
         }
         return null; // contact not found
     }
