@@ -125,10 +125,10 @@ public class ContactDAO {
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH))) {
             for (Contact contact : contacts) {
+                //
                 if (contact.getId() == updatedContact.getId()) {
                     contact = updatedContact;  // Update contact info
                     updated = true;
-                    //
                 }
 
                 // Write updated contact message data back to the file
