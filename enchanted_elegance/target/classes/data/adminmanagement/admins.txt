@@ -5,4 +5,5 @@
 1,Admin 5,1234567890,a5@example.com,admin123
 1,Admin 6,1234567890,a6@example.com,admin123
 1,Admin 7,1234567890,a7@example.com,admin123
-1,Admin 8,1234567890,a8@example.com,admin123
+1,Admin 8,1234567890,a8@example.com,admin1232,Sayuni sihara,0773795686,it24102764@my.sliit.lk,Sayuni2900
+2,Sayuni sihara,0773795686,it24102764@my.sliit.lk,Sayuni2900

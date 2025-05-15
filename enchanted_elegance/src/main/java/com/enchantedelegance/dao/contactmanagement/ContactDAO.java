@@ -43,6 +43,7 @@ public class ContactDAO {
 
         return contacts;
     }
+    //
 
 
     // Get contacts message by ID
@@ -117,7 +118,7 @@ public class ContactDAO {
             return false; // Error
         }
     }
-    // Update an existing contact message's details
+    // Update/edit an existing contact message's details
     public boolean updateContact(Contact updatedContact) {
         List<Contact> contacts = getAllContacts();
         boolean updated = false;
@@ -141,8 +142,9 @@ public class ContactDAO {
         }
         return updated;
     }
+    
 
-    // Delete booking by ID
+    // Delete contact by ID
     public boolean deleteContactById(int id) {
         List<Contact> contacts = getAllContacts();
         boolean deleted = false;
