@@ -125,7 +125,6 @@ public class ContactDAO {
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH))) {
             for (Contact contact : contacts) {
-                //
                 if (contact.getId() == updatedContact.getId()) {
                     contact = updatedContact;  // Update contact info
                     updated = true;
@@ -185,6 +184,7 @@ public class ContactDAO {
                 file.createNewFile(); // Create the file if it doesn't exist
             }
         } catch (IOException e) {
+            //
             e.printStackTrace();
         }
     }
