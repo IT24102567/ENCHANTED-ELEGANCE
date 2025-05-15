@@ -14,7 +14,6 @@ public class ContactDAO {
     public ContactDAO() {
         ensureFileExists();
     }
-    //
 
     // Read all contact message from the text file
     public List<Contact> getAllContacts() {
@@ -70,6 +69,7 @@ public class ContactDAO {
 
         return pendingContact;
     }
+    //
 
     // Get all processing contacts
     public List<Contact> getAllProcessingContact() {
