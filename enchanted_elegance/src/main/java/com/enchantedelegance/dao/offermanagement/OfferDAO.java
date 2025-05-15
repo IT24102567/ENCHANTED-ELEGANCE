@@ -93,7 +93,7 @@ public class OfferDAO {
             return false;
         }
         return updated;
-    }  //CleanUpUnusedCode
+    }
 
     // Delete an Offer by ID
     public boolean deleteOfferById(int id) {
@@ -125,7 +125,7 @@ public class OfferDAO {
     public int getNextId() {
         List<Offer> offers = getAllOffers();
         return offers.isEmpty() ? 1 : offers.get(offers.size() - 1).getId() + 1;
-    }
+    }      //incorrectIDGeneration
 
     private void ensureFileExists() {
         File file = new File(FILE_PATH);
