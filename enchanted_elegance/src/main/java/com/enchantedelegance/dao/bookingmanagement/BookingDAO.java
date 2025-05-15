@@ -108,8 +108,8 @@ public class BookingDAO {
             }
         } catch (IOException e) {
             e.printStackTrace();
-            return false;
-        }//
+            return false;//
+        }
         return updated;
     }
 
