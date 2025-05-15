@@ -64,7 +64,7 @@ public class BookingDAO {
         }
         return null; // booking not found
     }
-//
+
 
     // Add a new booking to the text file
     public boolean addBooking(Booking booking) {
@@ -86,7 +86,7 @@ public class BookingDAO {
             e.printStackTrace();
             return false; // Error
         }
-    }
+    }//
     // Update an existing booking's details
     public boolean updateBooking(Booking updatedBooking) {
         List<Booking> bookings = getAllBookings();
