@@ -105,8 +105,8 @@ public class BookingDAO {
                         booking.getDate() + DELIMITER + booking.getEmail() + DELIMITER +
                         booking.getTreatment() + DELIMITER + booking.getNote() );
                 writer.newLine();
-            }
-        } catch (IOException e) {//
+            }//
+        } catch (IOException e) {
             e.printStackTrace();
             return false;
         }
