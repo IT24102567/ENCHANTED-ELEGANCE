@@ -10,7 +10,7 @@ import java.util.List;
 public class OfferDAO {
     private static final String FILE_PATH = RootPath.rootPath+"/src/main/resources/data/offermanagement/Offer.txt";
     private static final String DELIMITER = ",";
-
+//FixIncorrectFilePath
     public OfferDAO() {
         ensureFileExists();
     }
@@ -112,7 +112,7 @@ public class OfferDAO {
                     writer.newLine();
                 } else {
                     deleted = true;
-                }                  //CheckIfDeletedOffersAreRemovedFromFile
+                }
             }
         } catch (IOException e) {
             e.printStackTrace();
