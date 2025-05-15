@@ -18,7 +18,7 @@ public class BookingDAO {
     // Read all booking from the text file
     public List<Booking> getAllBookings() {
         List<Booking> bookings = new ArrayList<>();
-//
+
         try (BufferedReader reader = new BufferedReader(new FileReader(FILE_PATH))) {
             String line;
             while ((line = reader.readLine()) != null) {
@@ -43,7 +43,7 @@ public class BookingDAO {
 
         return bookings;
     }
-
+//fix
     // Get all bookings by userID
     public List<Booking> getAllBookingsByUserId(int userId) {
         List<Booking> bookings = new ArrayList<>();
