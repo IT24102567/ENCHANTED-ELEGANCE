@@ -43,7 +43,7 @@ public class BookingDAO {
 
         return bookings;
     }
-//
+
     // Get all bookings by userID
     public List<Booking> getAllBookingsByUserId(int userId) {
         List<Booking> bookings = new ArrayList<>();
@@ -64,7 +64,7 @@ public class BookingDAO {
         }
         return null; // booking not found
     }
-
+//
 
     // Add a new booking to the text file
     public boolean addBooking(Booking booking) {
