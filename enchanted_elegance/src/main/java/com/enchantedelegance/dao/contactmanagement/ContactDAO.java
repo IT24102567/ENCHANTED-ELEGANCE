@@ -79,7 +79,6 @@ public class ContactDAO {
             if (contact.getStatus().equalsIgnoreCase("processing")) {
                 processingContact.add(contact);
             }
-            //
         }
 
         return processingContact;
@@ -104,6 +103,7 @@ public class ContactDAO {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH, true))) {
             String contactLine = String.join(DELIMITER,
                     String.valueOf(contact.getId()),
+                    //
                     contact.getName(),
                     contact.getEmail(),
                     contact.getMobile(),
