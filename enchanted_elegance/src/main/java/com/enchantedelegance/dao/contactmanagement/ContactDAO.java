@@ -14,6 +14,7 @@ public class ContactDAO {
     public ContactDAO() {
         ensureFileExists();
     }
+    //
 
     // Read all contact message from the text file
     public List<Contact> getAllContacts() {
@@ -43,7 +44,7 @@ public class ContactDAO {
 
         return contacts;
     }
-    //
+
 
 
     // Get contacts message by ID
