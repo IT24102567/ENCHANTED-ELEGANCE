@@ -96,8 +96,8 @@ public class BookingDAO {
             for (Booking booking : bookings) {
                 if (booking.getId() == updatedBooking.getId()) {
                     booking = updatedBooking;  // Update booking info
-                    updated = true; //
-                }
+                    updated = true;
+                }//
 
                 // Write updated booking data back to the file
                 writer.write(booking.getId() + DELIMITER + booking.getUserId() + DELIMITER +
