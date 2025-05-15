@@ -43,7 +43,7 @@ public class BookingDAO {
 
         return bookings;
     }
-//fix
+//
     // Get all bookings by userID
     public List<Booking> getAllBookingsByUserId(int userId) {
         List<Booking> bookings = new ArrayList<>();
