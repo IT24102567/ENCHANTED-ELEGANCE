@@ -15,7 +15,7 @@ public class FeedbackDAO {
         ensureFileExists();
     }
 
-    // Read all Feedback from the text file
+    // Read all Feedback from the text file (txt)
     public List<Feedback> getAllFeedbacks() {
         List<Feedback> feedbacks = new ArrayList<>();
 
