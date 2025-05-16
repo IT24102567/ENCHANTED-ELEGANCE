@@ -165,6 +165,7 @@ public class ContactDAO {
         }
         return deleted;
     }
+    //
 
 
     // Generate a new auto-incremented ID
@@ -189,4 +190,3 @@ public class ContactDAO {
     }
 
 }
-//
