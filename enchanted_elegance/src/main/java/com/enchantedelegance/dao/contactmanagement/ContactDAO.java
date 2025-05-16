@@ -43,6 +43,7 @@ public class ContactDAO {
 
         return contacts;
     }
+    //
 
 
 
@@ -97,7 +98,6 @@ public class ContactDAO {
 
         return completedContact;
     }
-    //
 
     // Add a new contact message to the text file
     public boolean addContact(Contact contact) {
