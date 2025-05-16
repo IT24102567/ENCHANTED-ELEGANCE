@@ -52,7 +52,7 @@ public class FeedbackDAO {
                 return feedback;
             }
         }
-        return null; // Feedback not found
+        return null; // Feedback not found(false)
     }
 
     // Get all published feedbacks
