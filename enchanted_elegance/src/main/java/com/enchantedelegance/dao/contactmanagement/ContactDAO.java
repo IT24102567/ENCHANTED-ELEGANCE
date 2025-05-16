@@ -64,7 +64,6 @@ public class ContactDAO {
         for (Contact contact : contacts) {
             if (contact.getStatus().equalsIgnoreCase("pending")) {
                 pendingContact.add(contact);
-                //
             }
         }
 
@@ -79,6 +78,7 @@ public class ContactDAO {
         for (Contact contact : contacts) {
             if (contact.getStatus().equalsIgnoreCase("processing")) {
                 processingContact.add(contact);
+                //
             }
         }
 
