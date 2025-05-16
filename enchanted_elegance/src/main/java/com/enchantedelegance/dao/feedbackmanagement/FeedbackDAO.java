@@ -55,7 +55,7 @@ public class FeedbackDAO {
         return null; // Feedback not found
     }
 
-    // Get all published feedbacks (https)
+    // Get all published feedbacks
     public List<Feedback> getFeedbackPublished() {
         List<Feedback> publishedFeedbacks = new ArrayList<>();
         List<Feedback> feedbacks = this.getAllFeedbacks();
