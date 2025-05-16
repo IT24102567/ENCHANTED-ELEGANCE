@@ -10,6 +10,7 @@ import java.util.List;
 public class ContactDAO {
     private static final String FILE_PATH =  RootPath.rootPath+"/src/main/resources/data/contactmanagement/contact.txt"; // Updated file path
     private static final String DELIMITER = ","; // Delimiter for separating fields
+    //
 
     public ContactDAO() {
         ensureFileExists();
@@ -43,7 +44,6 @@ public class ContactDAO {
 
         return contacts;
     }
-    //
 
 
 
