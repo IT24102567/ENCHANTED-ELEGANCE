@@ -72,7 +72,7 @@ public class FeedbackDAO {
     public List<Feedback> getFeedbackUnPublished() {
         List<Feedback> unPublishedFeedbacks = new ArrayList<>();
         List<Feedback> feedbacks = this.getAllFeedbacks();
-        //loop
+
         for (Feedback feedback : feedbacks) {
             if (!feedback.isPublish()) {
                 unPublishedFeedbacks.add(feedback);
