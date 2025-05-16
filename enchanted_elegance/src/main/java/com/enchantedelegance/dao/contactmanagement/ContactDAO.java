@@ -97,6 +97,7 @@ public class ContactDAO {
 
         return completedContact;
     }
+    //
 
     // Add a new contact message to the text file
     public boolean addContact(Contact contact) {
@@ -118,7 +119,6 @@ public class ContactDAO {
             return false; // Error
         }
     }
-    //
     // Update/edit an existing contact message's details
     public boolean updateContact(Contact updatedContact) {
         List<Contact> contacts = getAllContacts();
