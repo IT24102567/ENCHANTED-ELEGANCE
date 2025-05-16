@@ -18,7 +18,7 @@ public class FeedbackDAO {
     // Read all Feedback from the text file
     public List<Feedback> getAllFeedbacks() {
         List<Feedback> feedbacks = new ArrayList<>();
-
+        //linked list
         try (BufferedReader reader = new BufferedReader(new FileReader(FILE_PATH))) {
             String line;
             while ((line = reader.readLine()) != null) {
