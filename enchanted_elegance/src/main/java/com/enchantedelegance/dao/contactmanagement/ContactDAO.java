@@ -110,7 +110,6 @@ public class ContactDAO {
                     contact.getMessage(),
                     contact.getStatus()
             );
-            //
             writer.write(contactLine);
             writer.newLine();
             return true; // Success
@@ -136,6 +135,7 @@ public class ContactDAO {
                         contact.getEmail() + DELIMITER + contact.getMobile() + DELIMITER +
                         contact.getSubject() + DELIMITER + contact.getMessage() + DELIMITER + contact.getStatus() );
                 writer.newLine();
+                //
             }
         } catch (IOException e) {
             e.printStackTrace();
