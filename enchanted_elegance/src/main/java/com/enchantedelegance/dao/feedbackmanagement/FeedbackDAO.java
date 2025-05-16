@@ -68,7 +68,7 @@ public class FeedbackDAO {
 
         return publishedFeedbacks;
     }
-    // Get all unpublished feedbacks(try)
+    // Get all unpublished feedbacks
     public List<Feedback> getFeedbackUnPublished() {
         List<Feedback> unPublishedFeedbacks = new ArrayList<>();
         List<Feedback> feedbacks = this.getAllFeedbacks();
