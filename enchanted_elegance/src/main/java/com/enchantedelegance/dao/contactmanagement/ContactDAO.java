@@ -6,7 +6,6 @@ import com.enchantedelegance.root.RootPath;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-//
 
 public class ContactDAO {
     private static final String FILE_PATH =  RootPath.rootPath+"/src/main/resources/data/contactmanagement/contact.txt"; // Updated file path
@@ -40,6 +39,7 @@ public class ContactDAO {
             }
         } catch (IOException e) {
             e.printStackTrace();
+            //
         }
 
         return contacts;
