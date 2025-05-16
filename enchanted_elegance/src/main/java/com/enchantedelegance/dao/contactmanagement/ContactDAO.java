@@ -118,6 +118,7 @@ public class ContactDAO {
             return false; // Error
         }
     }
+    //
     // Update/edit an existing contact message's details
     public boolean updateContact(Contact updatedContact) {
         List<Contact> contacts = getAllContacts();
@@ -186,7 +187,6 @@ public class ContactDAO {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        //
     }
 
 }
