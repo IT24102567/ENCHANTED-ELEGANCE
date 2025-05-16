@@ -26,7 +26,7 @@ public class FeedbackDAO {
                 if (feedbackData.length == 7) { // Ensure all fields are present
                     Feedback feedback = new Feedback(
                             Integer.parseInt(feedbackData[0]), // id
-                            feedbackData[1], // name of client
+                            feedbackData[1], // name
                             feedbackData[2], // email
                             feedbackData[3], // mobile
                             feedbackData[4], // message
