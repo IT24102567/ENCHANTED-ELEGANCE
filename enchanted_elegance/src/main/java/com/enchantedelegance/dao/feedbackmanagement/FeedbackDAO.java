@@ -151,7 +151,7 @@ public class FeedbackDAO {
     }
 
 
-    // Generate a new auto-incremented ID (get id)
+    // Generate a new auto-incremented ID
     public int getNextId() {
         List<Feedback> feedbacks = getAllFeedbacks();
         if (feedbacks.isEmpty()) {
