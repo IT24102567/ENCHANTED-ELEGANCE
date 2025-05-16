@@ -93,7 +93,6 @@ public class ContactDAO {
             if (contact.getStatus().equalsIgnoreCase("completed")) {
                 completedContact.add(contact);
             }
-            //
         }
 
         return completedContact;
@@ -111,6 +110,7 @@ public class ContactDAO {
                     contact.getMessage(),
                     contact.getStatus()
             );
+            //
             writer.write(contactLine);
             writer.newLine();
             return true; // Success
