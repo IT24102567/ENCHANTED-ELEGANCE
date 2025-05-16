@@ -66,7 +66,7 @@ public class FeedbackDAO {
             }
         }
 
-        return publishedFeedbacks;//false
+        return publishedFeedbacks;
     }
     // Get all unpublished feedbacks
     public List<Feedback> getFeedbackUnPublished() {
