@@ -27,7 +27,7 @@ public class FeedbackDAO {
                     Feedback feedback = new Feedback(
                             Integer.parseInt(feedbackData[0]), // id
                             feedbackData[1], // name
-                            feedbackData[2], // email of client
+                            feedbackData[2], // email
                             feedbackData[3], // mobile
                             feedbackData[4], // message
                             feedbackData[5], // date
