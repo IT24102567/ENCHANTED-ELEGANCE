@@ -78,7 +78,6 @@ public class ContactDAO {
         for (Contact contact : contacts) {
             if (contact.getStatus().equalsIgnoreCase("processing")) {
                 processingContact.add(contact);
-                //
             }
         }
 
@@ -89,6 +88,7 @@ public class ContactDAO {
     public List<Contact> getAllCompletedContact() {
         List<Contact> completedContact = new ArrayList<>();
         List<Contact> contacts = this.getAllContacts();
+        //
 
         for (Contact contact : contacts) {
             if (contact.getStatus().equalsIgnoreCase("completed")) {
