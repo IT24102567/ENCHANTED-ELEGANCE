@@ -135,7 +135,6 @@ public class ContactDAO {
                         contact.getEmail() + DELIMITER + contact.getMobile() + DELIMITER +
                         contact.getSubject() + DELIMITER + contact.getMessage() + DELIMITER + contact.getStatus() );
                 writer.newLine();
-                //
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -158,6 +157,7 @@ public class ContactDAO {
                             contact.getSubject() + DELIMITER + contact.getMessage() + DELIMITER + contact.getStatus());                    writer.newLine();
                 } else {
                     deleted = true; // contact message found and skipped (deleted)
+                    //
                 }
             }
         } catch (IOException e) {
