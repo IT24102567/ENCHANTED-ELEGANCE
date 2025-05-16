@@ -6,6 +6,7 @@ import com.enchantedelegance.root.RootPath;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+//
 
 public class ContactDAO {
     private static final String FILE_PATH =  RootPath.rootPath+"/src/main/resources/data/contactmanagement/contact.txt"; // Updated file path
@@ -14,7 +15,6 @@ public class ContactDAO {
     public ContactDAO() {
         ensureFileExists();
     }
-    //
 
     // Read all contact message from the text file
     public List<Contact> getAllContacts() {
