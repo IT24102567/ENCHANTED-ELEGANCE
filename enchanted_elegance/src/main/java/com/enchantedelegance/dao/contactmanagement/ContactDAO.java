@@ -39,7 +39,6 @@ public class ContactDAO {
             }
         } catch (IOException e) {
             e.printStackTrace();
-            //
         }
 
         return contacts;
@@ -52,6 +51,7 @@ public class ContactDAO {
         for (Contact contact : getAllContacts()) {
             if (contact.getId() == id) {
                 return contact;
+                //
             }
         }
         return null; // contact not found
