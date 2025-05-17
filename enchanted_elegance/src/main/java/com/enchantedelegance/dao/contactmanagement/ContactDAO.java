@@ -142,6 +142,7 @@ public class ContactDAO {
         }
         return updated;
     }
+    //
     
 
     // Delete contact by ID
@@ -174,7 +175,6 @@ public class ContactDAO {
             return 1;
         }
         return contacts.get(contacts.size() - 1).getId() + 1;
-        //
     }
 
     private void ensureFileExists() {
