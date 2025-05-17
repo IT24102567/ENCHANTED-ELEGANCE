@@ -122,6 +122,7 @@ public class ContactDAO {
     public boolean updateContact(Contact updatedContact) {
         List<Contact> contacts = getAllContacts();
         boolean updated = false;
+        //
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH))) {
             for (Contact contact : contacts) {
@@ -129,7 +130,6 @@ public class ContactDAO {
                     contact = updatedContact;  // Update contact info
                     updated = true;
                 }
-                //
 
                 // Write updated contact message data back to the file
                 writer.write(contact.getId() + DELIMITER + contact.getName() + DELIMITER +
