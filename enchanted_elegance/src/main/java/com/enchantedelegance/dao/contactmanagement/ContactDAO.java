@@ -157,7 +157,6 @@ public class ContactDAO {
                             contact.getSubject() + DELIMITER + contact.getMessage() + DELIMITER + contact.getStatus());                    writer.newLine();
                 } else {
                     deleted = true; // contact message found and skipped (deleted)
-                    //
                 }
             }
         } catch (IOException e) {
@@ -175,6 +174,7 @@ public class ContactDAO {
             return 1;
         }
         return contacts.get(contacts.size() - 1).getId() + 1;
+        //
     }
 
     private void ensureFileExists() {
