@@ -129,6 +129,7 @@ public class ContactDAO {
                     contact = updatedContact;  // Update contact info
                     updated = true;
                 }
+                //
 
                 // Write updated contact message data back to the file
                 writer.write(contact.getId() + DELIMITER + contact.getName() + DELIMITER +
@@ -142,7 +143,6 @@ public class ContactDAO {
         }
         return updated;
     }
-    //
     
 
     // Delete contact by ID
