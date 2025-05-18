@@ -144,11 +144,11 @@ public class BookingDAO {
         if (bookings.isEmpty()) {
             return 1;
         }
-        return bookings.get(bookings.size() - 1).getId() + 1;
+        return bookings.get(bookings.size() - 1).getId() + 1;//
     }
 
     private void ensureFileExists() {
-        File file = new File(FILE_PATH);//
+        File file = new File(FILE_PATH);
         try {
             file.getParentFile().mkdirs(); // Ensure the directory exists
             if (!file.exists()) {
