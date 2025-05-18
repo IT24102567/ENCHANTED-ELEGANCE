@@ -105,7 +105,7 @@ public class BookingDAO {
                         booking.getDate() + DELIMITER + booking.getEmail() + DELIMITER +
                         booking.getTreatment() + DELIMITER + booking.getNote() );
                 writer.newLine();
-            }//
+            }
         } catch (IOException e) {
             e.printStackTrace();
             return false;
@@ -116,7 +116,7 @@ public class BookingDAO {
     // Delete booking by ID
     public boolean deleteBookingById(int id) {
         List<Booking> bookings = getAllBookings();
-        boolean deleted = false;
+        boolean deleted = false;//
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH))) {
             for (Booking booking : bookings) {
