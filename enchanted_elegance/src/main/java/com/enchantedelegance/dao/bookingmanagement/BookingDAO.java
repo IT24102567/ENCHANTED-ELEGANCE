@@ -120,12 +120,12 @@ public class BookingDAO {
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH))) {
             for (Booking booking : bookings) {
-                if (booking.getId() != id) {//
+                if (booking.getId() != id) {
                     writer.write(booking.getId() + DELIMITER + booking.getUserId() + DELIMITER +
                             booking.getName() + DELIMITER + booking.getMobile() + DELIMITER +
                             booking.getDate() + DELIMITER + booking.getEmail() + DELIMITER +
                             booking.getTreatment() + DELIMITER + booking.getNote());
-                    writer.newLine();
+                    writer.newLine();//
                 } else {
                     deleted = true; // Booking found and skipped (deleted)
                 }
