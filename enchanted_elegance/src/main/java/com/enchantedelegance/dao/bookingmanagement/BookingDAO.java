@@ -140,7 +140,7 @@ public class BookingDAO {
 
     // Generate a new auto-incremented ID
     public int getNextId() {
-        List<Booking> bookings = getAllBookings();//
+        List<Booking> bookings = getAllBookings();
         if (bookings.isEmpty()) {
             return 1;
         }
@@ -157,6 +157,6 @@ public class BookingDAO {
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
+    }//
 
 }
