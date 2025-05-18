@@ -119,7 +119,7 @@ public class BookingDAO {
         boolean deleted = false;
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH))) {
-            for (Booking booking : bookings) {//
+            for (Booking booking : bookings) {
                 if (booking.getId() != id) {
                     writer.write(booking.getId() + DELIMITER + booking.getUserId() + DELIMITER +
                             booking.getName() + DELIMITER + booking.getMobile() + DELIMITER +
@@ -135,7 +135,7 @@ public class BookingDAO {
             return false;
         }
         return deleted;
-    }
+    }//
 
 
     // Generate a new auto-incremented ID
