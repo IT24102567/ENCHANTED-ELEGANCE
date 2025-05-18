@@ -130,7 +130,7 @@ public class BookingDAO {
                     deleted = true; // Booking found and skipped (deleted)
                 }
             }
-        } catch (IOException e) {//
+        } catch (IOException e) {
             e.printStackTrace();
             return false;
         }
@@ -149,7 +149,7 @@ public class BookingDAO {
 
     private void ensureFileExists() {
         File file = new File(FILE_PATH);
-        try {
+        try {//
             file.getParentFile().mkdirs(); // Ensure the directory exists
             if (!file.exists()) {
                 file.createNewFile(); // Create the file if it doesn't exist
