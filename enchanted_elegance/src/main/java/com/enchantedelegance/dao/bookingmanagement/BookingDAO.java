@@ -140,7 +140,7 @@ public class BookingDAO {
 
     // Generate a new auto-incremented ID
     public int getNextId() {
-        List<Booking> bookings = getAllBookings();
+        List<Booking> bookings = getAllBookings();//
         if (bookings.isEmpty()) {
             return 1;
         }
@@ -149,7 +149,7 @@ public class BookingDAO {
 
     private void ensureFileExists() {
         File file = new File(FILE_PATH);
-        try {//
+        try {
             file.getParentFile().mkdirs(); // Ensure the directory exists
             if (!file.exists()) {
                 file.createNewFile(); // Create the file if it doesn't exist
