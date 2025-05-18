@@ -134,8 +134,8 @@ public class BookingDAO {
             e.printStackTrace();
             return false;
         }
-        return deleted;
-    }//
+        return deleted;//
+    }
 
 
     // Generate a new auto-incremented ID
