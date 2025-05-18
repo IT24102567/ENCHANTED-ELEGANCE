@@ -130,11 +130,11 @@ public class BookingDAO {
                     deleted = true; // Booking found and skipped (deleted)
                 }
             }
-        } catch (IOException e) {
+        } catch (IOException e) {//
             e.printStackTrace();
             return false;
         }
-        return deleted;//
+        return deleted;
     }
 
 
