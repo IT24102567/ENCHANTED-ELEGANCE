@@ -115,11 +115,11 @@ public class BookingDAO {
 
     // Delete booking by ID
     public boolean deleteBookingById(int id) {
-        List<Booking> bookings = getAllBookings();//
+        List<Booking> bookings = getAllBookings();
         boolean deleted = false;
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH))) {
-            for (Booking booking : bookings) {
+            for (Booking booking : bookings) {//
                 if (booking.getId() != id) {
                     writer.write(booking.getId() + DELIMITER + booking.getUserId() + DELIMITER +
                             booking.getName() + DELIMITER + booking.getMobile() + DELIMITER +
