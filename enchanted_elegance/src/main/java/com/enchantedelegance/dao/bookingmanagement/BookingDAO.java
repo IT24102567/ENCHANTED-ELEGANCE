@@ -148,10 +148,10 @@ public class BookingDAO {
     }
 
     private void ensureFileExists() {
-        File file = new File(FILE_PATH);
+        File file = new File(FILE_PATH);//
         try {
             file.getParentFile().mkdirs(); // Ensure the directory exists
-            if (!file.exists()) {//
+            if (!file.exists()) {
                 file.createNewFile(); // Create the file if it doesn't exist
             }
         } catch (IOException e) {
