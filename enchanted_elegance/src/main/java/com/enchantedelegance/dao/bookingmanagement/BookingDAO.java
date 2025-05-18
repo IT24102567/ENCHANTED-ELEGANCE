@@ -90,7 +90,7 @@ public class BookingDAO {
     // Update an existing booking's details
     public boolean updateBooking(Booking updatedBooking) {
         List<Booking> bookings = getAllBookings();
-        boolean updated = false;
+        boolean updated = false;//
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH))) {
             for (Booking booking : bookings) {
@@ -125,7 +125,7 @@ public class BookingDAO {
                             booking.getName() + DELIMITER + booking.getMobile() + DELIMITER +
                             booking.getDate() + DELIMITER + booking.getEmail() + DELIMITER +
                             booking.getTreatment() + DELIMITER + booking.getNote());
-                    writer.newLine();//
+                    writer.newLine();
                 } else {
                     deleted = true; // Booking found and skipped (deleted)
                 }
