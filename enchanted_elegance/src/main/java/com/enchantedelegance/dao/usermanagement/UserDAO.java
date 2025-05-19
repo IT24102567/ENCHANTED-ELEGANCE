@@ -11,6 +11,7 @@ public class UserDAO {
     private static final String FILE_PATH =  RootPath.rootPath+"/src/main/resources/data/usermanagement/users.txt"; // Updated file path
     private static final String DELIMITER = ","; // Delimiter for separating fields
 
+    //Constructor: TXT file creation
     public UserDAO() {
         ensureFileExists();
     }
@@ -58,7 +59,7 @@ public class UserDAO {
                 return user;
             }
         }
-        return null; // User not found
+        return null; //User not found
     }
 
     // Authenticate user (Check email and password)
@@ -112,7 +113,7 @@ public class UserDAO {
     }
 
     // Delete user by ID
-    public boolean deleteUserById(int id) {
+    public boolean deleteUserById (int id) {
         List<User> users = getAllUsers();
         boolean deleted = false;
 
