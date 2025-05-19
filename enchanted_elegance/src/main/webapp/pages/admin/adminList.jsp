@@ -196,7 +196,7 @@
           </ul>
           <div class="navbar-collapse justify-content-end px-0" id="navbarNav">
             <ul class="navbar-nav flex-row ms-auto align-items-center justify-content-end">
-              <a href="/enchanted_elegance" target="_blank" class="btn btn-primary">Visi Site</a>
+              <a href="/enchanted_elegance" target="_blank" class="btn btn-primary">Visit Site</a>
               <li class="nav-item dropdown">
                 <a class="nav-link nav-icon-hover" href="javascript:void(0)" id="drop2" data-bs-toggle="dropdown"
                   aria-expanded="false">
@@ -268,21 +268,21 @@
                                             <td class="ad-td-action">
                                                 <div class="d-flex justify-content-center gap-2">
                                                     <a href="../pages/admin/edit-admin-profile.jsp?id=<%= admin.getId() %>&page=<%= currentPage %>" 
-                                                      class="ad-btn ad-edit text-decoration-none d-flex align-items-center justify-content-center"
-                                                      style="width: 30px; height: 30px;">
+                                                      class="ad-edit text-decoration-none d-flex align-items-center justify-content-center"
+                                                      style="width: 30px; height: 30px; cursor: pointer; border: solid 0.1px; padding: 3px 9px; border-radius: 50%; text-align: center;">
                                                         <i class="ti ti-pencil fs-xs"></i>
                                                     </a>
                                                     <form action="../admin/delete-account" method="post" class="d-inline m-0">
                                                         <input type="hidden" name="id" value="<%= admin.getId() %>">
                                                         <input type="hidden" name="page" value="<%= currentPage %>">
-                                                        <button type="submit" 
-                                                                class="ad-btn ad-delete d-flex align-items-center justify-content-center"
-                                                                style="width: 30px; height: 30px;"
-                                                                onclick="return confirm('Are you sure?')">
+                                                        <button type="submit"
+                                                            class="ad-delete d-flex align-items-center justify-content-center"
+                                                            style="width: 30px; height: 30px; cursor: pointer; border: solid 0.1px; padding: 3px 9px; border-radius: 50%; text-align: center;"
+                                                            onclick="return confirm('Are you sure?')">
                                                             <i class="ti ti-trash fs-xs"></i>
                                                         </button>
-                                                    </form>
-                                                </div>
+                                                     </form>
+                                                   </div>
                                             </td>
                                         </tr>
                                         <%
@@ -296,7 +296,6 @@
                                     </tbody>
                                 </table>
                             </div>
-                            
                             <%-- Pagination --%>
                             <% if (totalPages > 1) { %>
                             <nav aria-label="Page navigation" class="mt-3">
@@ -325,6 +324,7 @@
                             </nav>
                             <% } %>
                         </div>
+
                       </div>
                   </div>
               </div>
