@@ -78,7 +78,7 @@ public class OfferDAO {
                 if (offer.getId() == updatedOffer.getId()) {
                     offer = updatedOffer;
                     updated = true;
-                }           //FixIssueWithDuplicateOffers
+                }
                 writer.write(String.join(DELIMITER,
                         String.valueOf(offer.getId()),
                         offer.getImage(), // This is now the URL
