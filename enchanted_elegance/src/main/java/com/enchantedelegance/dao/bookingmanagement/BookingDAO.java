@@ -15,7 +15,6 @@ public class BookingDAO {
     public BookingDAO() {
         ensureFileExists();
     }
-
     // Read all booking from the text file
     public List<Booking> getAllBookings() {
         List<Booking> bookings = new ArrayList<>();
@@ -81,7 +80,7 @@ public class BookingDAO {
                     booking.getNote()
             );
             writer.write(bookingLine);
-            writer.newLine();
+            writer.newLine(); //
             return true; // Success
         } catch (IOException e) {
             e.printStackTrace();
@@ -113,7 +112,7 @@ public class BookingDAO {
         }
         return updated;
     }
-//
+
     // Delete booking by ID
     public boolean deleteBookingById(int id) {
         List<Booking> bookings = getAllBookings();
@@ -145,7 +144,7 @@ public class BookingDAO {
         if (bookings.isEmpty()) {
             return 1;
         }
-        return bookings.get(bookings.size() - 1).getId() + 1;
+        return bookings.get(bookings.size() - 1).getId() + 1;//
     }
 
     private void ensureFileExists() {
