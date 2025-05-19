@@ -7,3 +7,4 @@
 1,Admin 7,1234567890,a7@example.com,admin123
 1,Admin 8,1234567890,a8@example.com,admin1232,I.S.H Kodithuwakku,0740712112,IT24102567@my.sliit.lk,IRESHA1234
 2,I.S.H Kodithuwakku,0740712112,IT24102567@my.sliit.lk,IRESHA1234
+3,Abhimani Hettiarachchi,0704160498,IT24102390@my.sliit.lk,1234ABHIMANI
