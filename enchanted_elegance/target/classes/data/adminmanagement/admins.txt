@@ -5,8 +5,26 @@
 5,Admin 5,1234567890,a5@example.com,admin123
 6,Admin 6,1234567890,a6@example.com,admin123
 7,Admin 7,1234567890,a7@example.com,admin123
-8,Admin 8,1234567890,a8@example.com,admin1232,I.S.H Kodithuwakku,0740712112,IT24102567@my.sliit.lk,IRESHA1234
-9,I.S.H Kodithuwakku,0740712112,IT24102567@my.sliit.lk,IRESHA1234
-10,Abhimani Hettiarachchi,0704160498,IT24102390@my.sliit.lk,1234ABHIMANI
-11,Admin 8,1234567890,a8@example.com,admin1232,Nethmi Manage,0773732814,it24104013@my.sliit.lk,it24104013@my.sliit.lk
-12,Nethmi Manage,0773732814,it24104013@my.sliit.lk,it24104013@my.sliit.lk
+8,Admin 8,1234567890,a8@example.com,admin1232,Kavi,0716429935,kavishkadevindi89@gmail.com,82076928
+9,Admin 5,1234567890,a5@example.com,admin123
+10,Admin 6,1234567890,a6@example.com,admin123
+11,Admin 7,1234567890,a7@example.com,admin123
+12,Admin 8,1234567890,a8@example.com,admin1232,Sayuni sihara,0773795686,it24102764@my.sliit.lk,Sayuni2900
+13,Sayuni sihara,0773795686,it24102764@my.sliit.lk,Sayuni2900
+14,Admin 3,1234567890,a3@example.com,admin123
+15,Site Admin,0705200409,info@gmail.com,info@gmail.com
+16,Admin 3,1234567890,a3@example.com,admin123
+17,Admin 4,1234567890,a4@example.com,admin123
+18,Admin 5,1234567890,a5@example.com,admin123
+19,Admin 6,1234567890,a6@example.com,admin123
+20,Admin 7,1234567890,a7@example.com,admin123
+21,info,0704260498,info@gmail.com,info@gmail.com
+22,Abhimani Hettiarachchi,0704160498,IT24102390@my.sliit.lk,1234ABHIMANI
+23,Admin 5,1234567890,a5@example.com,admin123
+24,Admin 6,1234567890,a6@example.com,admin123
+25,Admin 7,1234567890,a7@example.com,admin123
+26,Admin 8,1234567890,a8@example.com,admin1232,I.S.H Kodithuwakku,0740712112,IT24102567@my.sliit.lk,IRESHA1234
+27,I.S.H Kodithuwakku,0740712112,IT24102567@my.sliit.lk,IRESHA1234
+28,Abhimani Hettiarachchi,0704160498,IT24102390@my.sliit.lk,1234ABHIMANI
+29,Admin 8,1234567890,a8@example.com,admin1232,Nethmi Manage,0773732814,it24104013@my.sliit.lk,it24104013@my.sliit.lk
+30,Nethmi Manage,0773732814,it24104013@my.sliit.lk,it24104013@my.sliit.lk
