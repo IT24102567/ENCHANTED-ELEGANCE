@@ -5,5 +5,5 @@
 1,Admin 5,1234567890,a5@example.com,admin123
 1,Admin 6,1234567890,a6@example.com,admin123
 1,Admin 7,1234567890,a7@example.com,admin123
-1,Admin 8,1234567890,a8@example.com,admin1232,I.S.H Kodithuwakku,0740712112,IT24102567@my.sliit.lk,IRESHA1234
-2,I.S.H Kodithuwakku,0740712112,IT24102567@my.sliit.lk,IRESHA1234
+1,Admin 8,1234567890,a8@example.com,admin1232,Nethmi Manage,0773732814,it24104013@my.sliit.lk,it24104013@my.sliit.lk
+2,Nethmi Manage,0773732814,it24104013@my.sliit.lk,it24104013@my.sliit.lk
