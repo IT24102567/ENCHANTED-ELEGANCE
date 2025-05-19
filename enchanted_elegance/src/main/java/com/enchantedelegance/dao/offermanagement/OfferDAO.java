@@ -20,6 +20,7 @@ public class OfferDAO {
         List<Offer> offers = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(FILE_PATH))) {
             String line;
+
             while ((line = reader.readLine()) != null) {
                 String[] offerData = line.split(DELIMITER);
                 if (offerData.length == 5) {

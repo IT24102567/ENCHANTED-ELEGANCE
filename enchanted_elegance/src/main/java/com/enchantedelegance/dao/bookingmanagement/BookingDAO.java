@@ -11,10 +11,10 @@ public class BookingDAO {
     private static final String FILE_PATH =  RootPath.rootPath+"/src/main/resources/data/bookingmanagement/booking.txt"; // Updated file path
     private static final String DELIMITER = ","; // Delimiter for separating fields
 
+
     public BookingDAO() {
         ensureFileExists();
     }
-
     // Read all booking from the text file
     public List<Booking> getAllBookings() {
         List<Booking> bookings = new ArrayList<>();
@@ -80,7 +80,7 @@ public class BookingDAO {
                     booking.getNote()
             );
             writer.write(bookingLine);
-            writer.newLine();
+            writer.newLine(); //
             return true; // Success
         } catch (IOException e) {
             e.printStackTrace();
@@ -144,7 +144,7 @@ public class BookingDAO {
         if (bookings.isEmpty()) {
             return 1;
         }
-        return bookings.get(bookings.size() - 1).getId() + 1;
+        return bookings.get(bookings.size() - 1).getId() + 1;//
     }
 
     private void ensureFileExists() {

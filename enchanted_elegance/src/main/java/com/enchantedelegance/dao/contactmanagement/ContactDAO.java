@@ -45,6 +45,7 @@ public class ContactDAO {
     }
 
 
+
     // Get contacts message by ID
     public Contact getContactById(int id) {
         for (Contact contact : getAllContacts()) {
@@ -117,10 +118,11 @@ public class ContactDAO {
             return false; // Error
         }
     }
-    // Update an existing contact message's details
+    // Update/edit an existing contact message's details
     public boolean updateContact(Contact updatedContact) {
         List<Contact> contacts = getAllContacts();
         boolean updated = false;
+        //
 
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(FILE_PATH))) {
             for (Contact contact : contacts) {
@@ -141,8 +143,9 @@ public class ContactDAO {
         }
         return updated;
     }
+    
 
-    // Delete booking by ID
+    // Delete contact by ID
     public boolean deleteContactById(int id) {
         List<Contact> contacts = getAllContacts();
         boolean deleted = false;
