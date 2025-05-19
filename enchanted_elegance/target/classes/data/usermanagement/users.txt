@@ -10,6 +10,7 @@
 10,Alpha,0790123456,alpha@site.com,alpha@site.com
 11,Beta,0701234567,beta@site.com,beta@site.com
 12,Support,0711111111,support@mail.com,support@mail.com
-13,it24102764@my.sliit.lk,0773795686,it24102764@my.sliit.lk,it24102764@my.sliit.lk
-14,Iresha Kodithuwakku,0740712112,ireshazhan@gmail.com,IRESHA1234
-15,Nethmi Manage,0773732814,it24104013@my.sliit.lk,it24104013@my.sliit.lk
+13,Kavi,0716429935,kavishkadevindi89@gmail.com,82076928
+14,it24102764@my.sliit.lk,0773795686,it24102764@my.sliit.lk,it24102764@my.sliit.lk
+15,Iresha Kodithuwakku,0740712112,ireshazhan@gmail.com,IRESHA1234
+16,Nethmi Manage,0773732814,it24104013@my.sliit.lk,it24104013@my.sliit.lk
